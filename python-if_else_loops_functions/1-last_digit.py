@@ -9,6 +9,6 @@ print(f"Last digit of {number} is {last}", end=" ")
 if number > 5:
     print("and is greater than 5")
 elif number < 6 & number != 0:
-    print("and is less than 6 but not 0")
+    print("and is less than 6 and not 0")
 else:
     print("and is 0")
