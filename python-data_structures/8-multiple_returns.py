@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def multiple_return(sentence):
+def multiple_returns(sentence):
     length = len(sentence)
     if length > 0:
         i = sentence[0]
