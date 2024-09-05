@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+"""
+square class definition
+"""
 class Square:
     """
-    Square class containing nothing
+    No attributes
     """
     pass
