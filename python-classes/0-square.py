@@ -2,6 +2,8 @@
 """
 square class definition
 """
+
+
 class Square:
     """
     No attributes
