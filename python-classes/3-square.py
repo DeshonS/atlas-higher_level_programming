@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 class Square:
     """square class"""
-
-
     def __init__(self, size=0):
         """initialization"""
         if type(size) != int:
