@@ -10,12 +10,14 @@ class Square:
     """
     def __init__(self, size=0):
         """initialization"""
-        self.__size = size
+        self.size = size
 
+    @property
     def size(self):
         """defining variable size"""
         return(self.__size)
 
+    @size.setter
     def size(self, value):
         """assigns a value to size"""
         if type(value) is not int:
