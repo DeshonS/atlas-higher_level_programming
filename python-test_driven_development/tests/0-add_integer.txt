@@ -21,7 +21,7 @@ b must be an integer
 ... 	print(e)
 a must be an integer
 >>> try:
-... 	print(add_integer(1e308, 1e308))
+... 	print(add_integer(9999999999999999999999, 99999999999999999999))
 ... except Exception as e:
 ... 	print(e)
 OverflowError: math range error
