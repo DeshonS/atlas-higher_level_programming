@@ -1,6 +1,6 @@
 #This file is used to test 0-add_integers.py
 
->>> from 0-add_integer import add_integer
+>>> add_integer = import("0-add_integer").add_integer
 
 >>> print(add_integer(1, 2))
 3
