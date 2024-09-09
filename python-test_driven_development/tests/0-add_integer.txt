@@ -1,0 +1,12 @@
+#This file is used to test 0-add_integers.py
+
+>>> from 0-add_integer import add_integer
+
+>>> print(add_integer(1, 2))
+3
+>>> print(add_integer(100, -2))
+98
+>>> print(add_integer(2))
+100
+>>> print(add_integer(100.3, -2))
+98
