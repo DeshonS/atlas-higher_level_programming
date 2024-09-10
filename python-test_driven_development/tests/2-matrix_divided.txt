@@ -18,7 +18,7 @@ TypeError: div must be a number
 Traceback (most recent call last):
 ...
 SyntaxError: invalid syntax
->>> print(matrix_divided(matrix,)
+>>> print(matrix_divided(matrix,))
 Traceback (most recent call last):
 ...
 SyntaxError: invalid syntax
