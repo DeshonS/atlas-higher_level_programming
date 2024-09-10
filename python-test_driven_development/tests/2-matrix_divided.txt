@@ -27,7 +27,7 @@ Traceback (most recent call last):
 ...
 ZeroDivisionError: division by zero
 >>> matrix = [['a', 'b', 'c'],['d', 'e', 'f']]
->>> print(matrix_divided(matrix))
+>>> print(matrix_divided(matrix, 2))
 Traceback (most recent call last):
 ...
 TypeError: matrix must be a matrix (list of lists) of integers/floats
