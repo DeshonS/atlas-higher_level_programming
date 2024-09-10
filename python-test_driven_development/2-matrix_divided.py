@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+""" Matrix divided function that divides all elements of a matrix"""
+
+
 def matrix_divided(matrix, div):
+    """defining function"""
     if (not isinstance(matrix, list) or 
         not all(isinstance(row, list) for row in matrix) or 
         not all(isinstance(ele, (int, float)) for row in matrix for ele in row)):
@@ -18,4 +22,3 @@ def matrix_divided(matrix, div):
     new_matrix = [[round(ele / div, 2) for ele in row] for row in matrix]
     
     return new_matrix
-
