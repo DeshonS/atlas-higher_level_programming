@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 class Rectangle:
     """class creation"""
     def __init__(self, width=0, height=0):
