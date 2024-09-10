@@ -45,9 +45,9 @@ class Rectangle:
             return 0
         return 2 * (self.__width + self.__height)
 
-    def my_print(self):
+    def __str__(self):
         """prints the rectangle based on size and position"""
-        if self.width is 0 or self.height is 0:
+        if self.width == 0 or self.height == 0:
             print()
         else:
             return "\n".join(["#" * self.__width for _ in range(self.__height)])
