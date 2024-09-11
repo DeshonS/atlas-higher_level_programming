@@ -33,4 +33,4 @@ size must be >= 0
 ... 	print(e)
 size must be an integer
 >>> print_square()
-
+TypeError: print_square() missing 1 required positional argument: 'size'
