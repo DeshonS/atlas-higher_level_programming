@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
     class BaseGeometry
-    
+
     def area(self):
     raises exception error
 """
