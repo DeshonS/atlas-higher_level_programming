@@ -62,4 +62,4 @@
 ... 	bg.area()
 ... except Exception as e:
 ... 	print(e)
-[Exception] area() is not implemented
+area() is not implemented
