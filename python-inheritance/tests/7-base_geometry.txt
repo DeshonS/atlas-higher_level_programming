@@ -62,4 +62,4 @@
 ... 	area()
 ... except Exception as e:
 ... 	print(e)
-[Exception] area() is not implemented
+name 'area' is not defined
