@@ -12,5 +12,5 @@ try:
     item_list = load_from_json_file(filename)
 except FileNotFoundError:
     item_list = []
-items.extend(sys.argv[1:])
+item_list.extend(sys.argv[1:])
 save_to_json_file(item_list, filename)
