@@ -20,5 +20,5 @@ class BaseGeometry:
             raise TypeError("name must be an integer")
         if value <= 0:
             raise ValueError("age must be greater than 0")
-        if name = "age" and type(value) is not int:
+        if name is "age" and type(value) is not int:
             raise TypeError("age must be an integer")
