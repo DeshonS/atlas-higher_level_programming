@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+"""creates a pascal triangle based on n"""
+
+
 def pascal_triangle(n):
+    """init pascal_triangle"""
     if n <= 0:
         return []
 
