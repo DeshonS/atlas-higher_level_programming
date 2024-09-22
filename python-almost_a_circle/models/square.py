@@ -29,7 +29,7 @@ class Square(Rectangle):
         """updates attributes"""
         attr = ['id', 'size', 'x', 'y']
 
-        for i, arg in enumerate(attr):
+        for i, arg in enumerate(args):
             if i < len(attr):
                 setattr(self, attr[i], arg)
         else:
