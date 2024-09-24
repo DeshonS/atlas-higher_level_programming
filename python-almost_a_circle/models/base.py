@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """class Base"""
-from json import dumps
+import json
 
 
 class Base:
@@ -21,7 +21,7 @@ class Base:
         if list_dictionaries is None:
             return "[]"
         else:
-            return dumps(list_dictionaries)
+            return json.dumps(list_dictionaries)
 
     @classmethod
     def save_to_file(cls, list_objs):
@@ -34,3 +34,11 @@ class Base:
         json_string = cls.to_json_string(list_dicts)
         with open(filename, 'w') as file:
             file.write(json_string)
+
+    @staticmethod
+    def from_json_string(json_string):
+        """returns the JSON string representation json_string"""
+        if json_string is None:
+            return []
+        else:
+            return json.loads(json_string)
