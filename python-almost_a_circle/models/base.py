@@ -2,7 +2,6 @@
 """class Base"""
 from json import dumps
 
-
 class Base:
     """init class"""
     __nb_objects = 0
@@ -22,3 +21,15 @@ class Base:
             return "[]"
         else:
             return dumps(list_dictionaries)
+
+    @classmethod
+    def save_to_file(cls, list_objs):
+        """saves json_string to file (filename)"""
+        filename = cls.__name__ + ".json"
+        if list_objs is None:
+            list_dicts = []
+        else:
+            list_dicts = [obj.to_dictionary() for obj in list_objs]
+        json_string = cls.to_json_string(list_dicts)
+        with open(filename, 'w') as file:
+            file.write(json_string)
