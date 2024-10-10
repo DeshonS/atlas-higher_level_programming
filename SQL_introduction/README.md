@@ -1,0 +1,1 @@
+This module will cover the basics of SQL
