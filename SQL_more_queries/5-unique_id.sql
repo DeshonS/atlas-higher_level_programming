@@ -1,5 +1,6 @@
 -- create a table
 CREATE TABLE IF NOT EXISTS unique_id (
-    if INT NOT NULL DEFAULT 1 DISTINCT,
+    id INT NOT NULL DEFAULT 1,
     name VARCHAR(256),
+    UNIQUE (id)
 )
