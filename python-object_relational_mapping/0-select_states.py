@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import MYSQLdb
+from MYSQLdb import *
 import sys
 
 if __name__ == "__main__":
