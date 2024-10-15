@@ -9,8 +9,8 @@ if __name__ == "__main__":
     db = connect(host="localhost", port=3306, user=username, passwd=password, db=database)
     cur = db.cursor()
     cur.execute("SELECT * FROM states ORDER BY id ASC")
-    states = cursor.fetchall()
+    states = cur.fetchall()
     for state in states:
         print(state)
-    cursor.close()
+    cur.close()
     db.close()
