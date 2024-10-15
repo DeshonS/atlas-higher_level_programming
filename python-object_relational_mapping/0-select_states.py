@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-from MYSQLdb import connect, cursor
 import sys
+import MySQLdb
 
 if __name__ == "__main__":
     username = sys.argv[1]
