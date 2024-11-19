@@ -11,5 +11,5 @@ const num = parseInt(args[0], 10);
 if (isNaN(num)) {
   console.log(1);
 } else {
-  console.log(factorial(num));
+  console.log(fractional(num));
 }
