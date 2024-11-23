@@ -34,7 +34,7 @@ class Square extends SquareMain {
   }
 
   charPrint (c) {
-    const char = C || 'X';
+    const char = c || 'X';
     for (let i = 0; i < this.width; i++) {
       console.log(char.repeat(this.height));
     }
