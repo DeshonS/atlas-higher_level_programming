@@ -34,7 +34,7 @@ class Square extends SquareMain {
   }
 
   charPrint (c) {
-    if (c === null) {
+    if (c === undefined) {
       c === 'X';
     }
     for (let i = 0; i < this.width; i++) {
