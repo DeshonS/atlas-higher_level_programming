@@ -26,9 +26,8 @@ class Rectangle {
 }
 
 class Square extends Rectangle {
-  constructor (w, h) {
-    this.width = w;
-    this.height = h;
+  constructor (size) {
+    super(size, size)
   }
 }
 module.exports = Square;
