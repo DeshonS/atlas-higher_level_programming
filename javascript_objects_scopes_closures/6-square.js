@@ -1,4 +1,7 @@
 #!/usr/bin/node
+
+const SquareMain = require('.5-square');
+
 class Rectangle {
   constructor (w, h) {
     if (w > 0 && h > 0) {
@@ -25,7 +28,7 @@ class Rectangle {
   }
 }
 
-class Square extends Rectangle {
+class Square extends SquareMain {
   constructor (size) {
     super(size, size);
   }
