@@ -37,7 +37,7 @@ class Square extends SquareMain {
     if (c === null) {
       c === 'X';
     }
-    for (i = 0; i < size; i++) {
+    for (let i = 0; i < size; i++) {
       console.log(c.repeat(size));
     }
   }
