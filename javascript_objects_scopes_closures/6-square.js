@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-const SquareMain = require('.5-square');
+const SquareMain = require('./5-square');
 
 class Rectangle {
   constructor (w, h) {
