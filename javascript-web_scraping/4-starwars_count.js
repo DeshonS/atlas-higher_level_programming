@@ -15,5 +15,5 @@ request.get(apiUrl, (error, response, body) => {
     } catch (parseError) {
       console.log(parseError);
     }
-  }
-});
+  })
+};
