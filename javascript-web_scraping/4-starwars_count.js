@@ -8,7 +8,7 @@ request.get(apiUrl, (error, response, body) => {
   }
     try {
       const films = JSON.parse(body).results;
-      const wedgeMovies = films.filter(film => 
+      const wedgeMovies = films.filter(film =>
         film.characters.some(characterUrl => characterUrl.includes(`/people/${wedgeId}/`))
       );
       console.log(wedgeMovies.length);
