@@ -5,7 +5,6 @@ const content = process.argv[3];
 
 try {
   fs.writeFileSync(filePath, content, 'utf-8');
-  console.log(content);
 } catch (error) {
   console.log(error);
 }
